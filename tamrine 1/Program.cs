@@ -1,4 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+
+
+
+
+
+
+
+/* توضیحات 
+ tamrin 1 */
+
 int s = 0, f = 0;
 Console.WriteLine("please enter first number");
 string sstring = Console.ReadLine();

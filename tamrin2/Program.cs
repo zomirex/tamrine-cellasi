@@ -1,4 +1,5 @@
-﻿
+﻿/* توضیحات 
+ tamrin 2 */
 
 using static System.Runtime.InteropServices.JavaScript.JSType;
 

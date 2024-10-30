@@ -1,4 +1,14 @@
-﻿using System.ComponentModel.Design;
+﻿
+
+
+
+
+
+
+
+/* توضیحات 
+ tamrin 3 */
+using System.ComponentModel.Design;
 Console.WriteLine("please press uper case or lower case letter");
 
 char R = Console.ReadKey(true).KeyChar;
