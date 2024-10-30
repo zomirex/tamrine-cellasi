@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine3", "tamrine3\tamrin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine 4", "tamrine 4\tamrine 4.csproj", "{20F55A60-0F45-4D93-A70F-96D1D76BB8AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine 5", "tamrine 5\tamrine 5.csproj", "{07E51931-A4ED-4D04-947D-24066B1E270E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{20F55A60-0F45-4D93-A70F-96D1D76BB8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F55A60-0F45-4D93-A70F-96D1D76BB8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F55A60-0F45-4D93-A70F-96D1D76BB8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E51931-A4ED-4D04-947D-24066B1E270E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E51931-A4ED-4D04-947D-24066B1E270E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E51931-A4ED-4D04-947D-24066B1E270E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E51931-A4ED-4D04-947D-24066B1E270E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
