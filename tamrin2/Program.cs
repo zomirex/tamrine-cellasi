@@ -29,7 +29,7 @@ for (int i = s; i < f; i++)
     x = i;
     n = 1;
     a1 = i;
-    double a1n, a2n, z = 10;
+    double a1n, a2n;
     int ra1=a1 , ra2 , rra2;
     while (true)
     {
