@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine 1", "tamrine 1\tamrine 1.csproj", "{E33C9BC8-0846-4249-9C94-904869C982CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrine 1", "tamrine 1\tamrine 1.csproj", "{E33C9BC8-0846-4249-9C94-904869C982CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrin2", "tamrin2\tamrin2.csproj", "{BCACB2EF-86BA-4BA5-A1EB-E22571CE08F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrin2", "tamrin2\tamrin2.csproj", "{BCACB2EF-86BA-4BA5-A1EB-E22571CE08F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine3", "tamrine3\tamrine3.csproj", "{FABA0EEF-C378-474B-8069-D1E7DBCC2B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrine3", "tamrine3\tamrine3.csproj", "{FABA0EEF-C378-474B-8069-D1E7DBCC2B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine 4", "tamrine 4\tamrine 4.csproj", "{20F55A60-0F45-4D93-A70F-96D1D76BB8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrine 4", "tamrine 4\tamrine 4.csproj", "{20F55A60-0F45-4D93-A70F-96D1D76BB8AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine 5", "tamrine 5\tamrine 5.csproj", "{07E51931-A4ED-4D04-947D-24066B1E270E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrine 5", "tamrine 5\tamrine 5.csproj", "{07E51931-A4ED-4D04-947D-24066B1E270E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine 6", "tamrine 6\tamrine 6.csproj", "{8EBB6289-BC6A-4650-8FF3-76D4752E95FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{07E51931-A4ED-4D04-947D-24066B1E270E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E51931-A4ED-4D04-947D-24066B1E270E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E51931-A4ED-4D04-947D-24066B1E270E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBB6289-BC6A-4650-8FF3-76D4752E95FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBB6289-BC6A-4650-8FF3-76D4752E95FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBB6289-BC6A-4650-8FF3-76D4752E95FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBB6289-BC6A-4650-8FF3-76D4752E95FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

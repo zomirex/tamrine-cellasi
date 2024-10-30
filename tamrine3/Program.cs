@@ -1,78 +1,19 @@
-﻿
-
-
-
-
-
-
-
-/* توضیحات 
- tamrin 3 */
-using System.ComponentModel.Design;
-Console.WriteLine("please press uper case or lower case letter");
-
-char R = Console.ReadKey(true).KeyChar;
-
-int r = R;
-string result ="";
-if (r >= 65 &&  r<= 90)
+﻿/* تمرین 3 توضیحات فیبوناچی */
+Console.WriteLine("please enter a number");
+int n = Convert.ToInt32(Console.ReadLine());
+int a1 = 0, a2 =1 ,l=0 ;
+l = a1 + a2;
+while (l <= n)
 {
-    result = result + R.ToString();
-    
-    
-    
-
-    Console.WriteLine("please press a number");
-    R = Console.ReadKey(true).KeyChar;
-    r = R;
-    if (r >= 48 && r <= 57)
-	{
-        result = result + R.ToString();
-        Console.WriteLine("please press A or B");
-        R =Console.ReadKey(true).KeyChar;  
-        if (R == 'A'|| R == 'a')
-        {
-            result = result + R.ToString();
-            Console.WriteLine(result);
-        }
-            
-        else if (R == 'B' || R == 'b')
-        {
-            result = result + R.ToString();
-            Console.WriteLine(result);
-        }
-           
-
+    if (l == n)
+    {
+        Console.WriteLine(n + "  thats available");
+        break;
     }
+    a1 = l;
+    l = l+a2;
+    a2 = a1;
+
 }
-
-else if (r >= 97 && r <= 122)
-{
-    result = result + R.ToString();
-    
-    
-    Console.WriteLine("please press a number");
-    R = Console.ReadKey(true).KeyChar;
-   
-    r = R;
-    if (r >= 48 && r <= 57)
-	{
-        result = result + R.ToString();
-        Console.WriteLine("please press A or B");
-        R= Console.ReadKey(true).KeyChar;
-       
-        if (R == 'A' || R == 'a')
-            {
-            result = result + R.ToString();
-            Console.WriteLine(result);
-        }
-
-        else if(R=='B' || R == 'b')
-           { 
-            result = result + R.ToString();
-            Console.WriteLine(result);
-        }
-
-    }
-}
-        
+if (l > n)
+    Console.WriteLine("number "+n+" is'nt available");
