@@ -29,7 +29,7 @@ do
     while ((r>=65 && r<=90) || (r >= 97 && r <= 122))
     {
         result = result + R ;
-        R = Console.ReadKey(true).KeyChar;
+        R = Console.ReadKey().KeyChar;
         r = R;
     }
     

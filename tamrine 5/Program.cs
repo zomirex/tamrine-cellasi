@@ -28,7 +28,7 @@ do
     {
        
         result = result + r;
-        r = Console.ReadKey(true).KeyChar;
+        r = Console.ReadKey().KeyChar;
         
     }
 
