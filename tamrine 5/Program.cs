@@ -1,8 +1,16 @@
-﻿/* توضیحات 
+﻿
+
+
+
+
+
+/* توضیحات 
  tamrin 5 */
+/* تکلیف امیر حسین ناصح */
+
 char r ='a';
 
-string result = "";
+string result = null ;
 Console.WriteLine("please enter smt and if you press esc the consol will be close");
 do
 {//if charecter is'nt a number 

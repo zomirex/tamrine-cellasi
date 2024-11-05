@@ -1,5 +1,12 @@
-﻿/* توضیحات 
+﻿
+
+
+
+
+
+/* توضیحات 
  tamrin 2 */
+/* تکلیف امیر حسین ناصح */
 
 using static System.Runtime.InteropServices.JavaScript.JSType;
 

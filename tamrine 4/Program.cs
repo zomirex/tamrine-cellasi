@@ -6,6 +6,8 @@
 
 /* توضیحات 
  tamrin 4 */
+/* تکلیف امیر حسین ناصح */
+
 char R;
 int r;
 string result="";
