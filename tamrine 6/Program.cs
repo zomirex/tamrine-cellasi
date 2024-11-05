@@ -8,6 +8,8 @@
 
 /* توضیحات 
  tamrin 6 desision tree */
+/* تکلیف امیر حسین ناصح */
+
 using System.ComponentModel.Design;
 Console.WriteLine("please press uper case or lower case letter");
 

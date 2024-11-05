@@ -1,4 +1,13 @@
-﻿/* تمرین 3 توضیحات فیبوناچی */
+﻿
+
+
+
+
+
+
+/* تمرین 3 توضیحات فیبوناچی */
+/* تکلیف امیر حسین ناصح */
+
 Console.WriteLine("please enter a number");
 int n = Convert.ToInt32(Console.ReadLine());
 int a1 = 0, a2 =1 ,l=0 ;
