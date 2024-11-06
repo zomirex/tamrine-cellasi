@@ -1,4 +1,4 @@
-﻿//tamrin jalase 3 decision tree with switch amirhossein naseh
+﻿//tamrin jalase 3 decision tree with switch amirhossein naseh      #type 1
 string result = null;
 string[,] qus = { { "cafe", "tea", "soda" }, { "10%-water", "20%-water", "30%-water" }, { "sweet", "normal", "dietary" } };
 char input = 'a';
