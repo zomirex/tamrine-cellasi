@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿void gg(int s)
+{
+    Console.WriteLine("hello");
+    gg(s);
+}
+int f = 0;
+gg(f);

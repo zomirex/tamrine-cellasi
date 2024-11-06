@@ -1,4 +1,4 @@
-﻿
+﻿//tamrin jalase 3 decision tree with switch amirhossein naseh
 string result = null;
 string[,] qus = { { "cafe", "tea", "soda" }, { "10%-water", "20%-water", "30%-water" }, { "sweet", "normal", "dietary" } };
 char input = 'a';
@@ -43,11 +43,12 @@ for (int i = 0; i < 3; i++)
             break;
     }
     
-}
-price=cost(result);
+}//در اصل تکلیف تا این قسمته و تابع cost جدا برای قیمت ه
+
+//price=cost(result);
 Console.WriteLine("you have a :"+result);
 Console.WriteLine();
-Console.WriteLine($" and that cost {price}");
+//Console.WriteLine($" and that cost {price}");
 int cost (string res)
 { int cost = 0 , n=0,z=0;
     string[] x =new string [4];
@@ -86,4 +87,4 @@ int cost (string res)
     }
     Console.WriteLine(x[2]);
     return cost;
-}
+}//
