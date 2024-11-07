@@ -1,9 +1,10 @@
 ﻿//tamrin jalase 3 decision tree with switch amirhossein naseh      #type 1
 string result = null;
 string[,] qus = { { "cafe", "tea", "soda" }, { "10%-water", "20%-water", "30%-water" }, { "sweet", "normal", "dietary" } };
+int[,] PriceArrr = {    {20000,4000,12000},{2000,1000,500},{4000,0,1000}};
 char input = 'a';
 
-int n = 0, price=0;
+int  price=0;
 for (int i = 0; i < 3; i++)
 {
     Console.WriteLine();
@@ -28,15 +29,18 @@ for (int i = 0; i < 3; i++)
     {
         case '1':
             result += qus[i, 0] + " ";
-            n++;
+            price += PriceArrr[i,0];
+        
             break;
         case '2':
             result += qus[i, 1] + " ";
-            n++;
+            price += PriceArrr[i,1];
+           
             break;
         case '3':
             result += qus[i, 2] + " ";
-            n++;
+            price += PriceArrr[i,2];
+           
             break;
 
         default:
@@ -46,7 +50,7 @@ for (int i = 0; i < 3; i++)
 }//در اصل تکلیف تا این قسمته و تابع cost جدا برای قیمت ه
 
 //price=cost(result);
-Console.WriteLine("you have a :"+result);
+Console.WriteLine("you have a :"+result + "and that cost "+ price);
 Console.WriteLine();
 //Console.WriteLine($" and that cost {price}");
 int cost (string res)
