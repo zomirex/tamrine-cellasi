@@ -25,11 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test folder", "test folder"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test 2", "test 2\test 2.csproj", "{90690C5C-B501-4D44-AF3D-FAFB3BD72A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrin 1 switch decision tree", "tamrin 1 switch decision tree\tamrin 1 switch decision tree.csproj", "{3294E87E-49FF-4902-BC24-97DEB3525F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrin 1 switch decision tree final", "tamrin 1 switch decision tree\tamrin 1 switch decision tree final.csproj", "{3294E87E-49FF-4902-BC24-97DEB3525F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrine 1 switch decision2", "tamrine 1 switch decision2\tamrine 1 switch decision2.csproj", "{23D34297-185F-4F86-92D1-D608E89C96C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrine 1 switch decision2 test", "tamrine 1 switch decision2\tamrine 1 switch decision2 test.csproj", "{23D34297-185F-4F86-92D1-D608E89C96C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamrin 1 switch decision tree 3", "tamrin 1 switch decision tree 3\tamrin 1 switch decision tree 3.csproj", "{3BCB0335-ABAE-4F27-B05D-5E349EE855EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamrin 1 switch decision tree 3 test", "tamrin 1 switch decision tree 3\tamrin 1 switch decision tree 3 test.csproj", "{3BCB0335-ABAE-4F27-B05D-5E349EE855EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

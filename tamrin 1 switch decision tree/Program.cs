@@ -50,45 +50,45 @@ for (int i = 0; i < 3; i++)
 }//در اصل تکلیف تا این قسمته و تابع cost جدا برای قیمت ه
 
 //price=cost(result);
-Console.WriteLine("you have a :"+result + "and that cost "+ price);
+Console.WriteLine("\nyou have a :"+result + "and that cost "+ price);
 Console.WriteLine();
 //Console.WriteLine($" and that cost {price}");
-int cost (string res)
-{ int cost = 0 , n=0,z=0;
-    string[] x =new string [4];
-    z = res.Length;
+//int cost (string res)
+//{ int cost = 0 , n=0,z=0;
+//    string[] x =new string [4];
+//    z = res.Length;
   
-    for (int i = 0;i<res.Length;i++)
-    {
-        if (res[i] == ' ')
-            n++;
-        else
-            x[n] += res[i];
-    }
-    switch(x[0])
-    {
-        case "cafe":
-            cost += 10000;
-            break;
-        case "tea":
-            cost += 5000;
-            break;
-        case "soda ":
-            cost += 25000;
-            break;
-    }
-    switch (x[2])
-    {
-        case "sweet":
-            cost = cost+ 200;
-            break;
-        case "normal":
-            cost = cost + 500;
-            break;
-        case "dietary ":
-            cost = cost + 2500;
-            break;
-    }
-    Console.WriteLine(x[2]);
-    return cost;
-}//
+//    for (int i = 0;i<res.Length;i++)
+//    {
+//        if (res[i] == ' ')
+//            n++;
+//        else
+//            x[n] += res[i];
+//    }
+//    switch(x[0])
+//    {
+//        case "cafe":
+//            cost += 10000;
+//            break;
+//        case "tea":
+//            cost += 5000;
+//            break;
+//        case "soda ":
+//            cost += 25000;
+//            break;
+//    }
+//    switch (x[2])
+//    {
+//        case "sweet":
+//            cost = cost+ 200;
+//            break;
+//        case "normal":
+//            cost = cost + 500;
+//            break;
+//        case "dietary ":
+//            cost = cost + 2500;
+//            break;
+//    }
+//    Console.WriteLine(x[2]);
+//    return cost;
+//}//
